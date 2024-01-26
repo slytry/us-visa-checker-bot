@@ -1,4 +1,4 @@
-# CloneBot
+# CloneBot 
 Template repository for making clone-able telegram bots using [grammY](https://grammy.dev) telegram bot library.
 
 # Variables
@@ -15,6 +15,12 @@ This repository can be deployed and tested right out of the box.
 In addition to that, you can test the bot locally using deno tasks: `deno task test`.
 
 # Credits
-- [Aditya](https://xditya.me) for [this template repository](https://github.com/xditya/GrammyCloneBot).
-- [SpEcHiDe](https://www.shrimadhavuk.me/) for [IDNWB](https://github.com/SpEcHiDe/IDNWB).
-- [grammY](https://github.com/grammyjs/) for [grammY](https://grammy.dev)!
+- us_visa_yerevan_bot
+- us-visa-checker
+- t.me/us_visa_yerevan_bot
+
+# Credits 2
+- https://github.com/theoomoregbee/US-visa-appointment-notifier?tab=readme-ov-file
+- https://ais.usvisa-info.com/en-am/niv/users/sign_in
+- https://github.com/jeangnc/us-visa-bot
+

@@ -1,9 +1,15 @@
-import { config } from "dotenv";
-import { cleanEnv, str } from "envalid";
+import { load } from "dotenv";
+import { cleanEnv, str, email } from "envalid";
 
-await config({ export: true });
+await load({ export: true });
 
-export default cleanEnv(Deno.env.toObject(), {
+export const env = cleanEnv(Deno.env.toObject(), {
   BOT_TOKEN: str(),
-  WEBHOOK_PATH: str(), // eg: CloneBot (the webhook would point to <your-domain>/CloneBot)
+  WEBHOOK_PATH: str(),
+  USERNAME: email(),
+  PASSWORD: str(),
+  DATA: str(),
+  SCHEDULE_ID: str(),
+  FACILITY_ID: str(),
+  BASE_URI: str(),
 });
